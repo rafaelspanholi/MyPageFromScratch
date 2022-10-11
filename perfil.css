@@ -1,0 +1,64 @@
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 50%);
+    color: white;
+}
+
+.header > ul {
+    list-style: none;
+    display: flex;
+}
+
+.header > ul > li {
+    padding: 10px;
+}
+
+.profile{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 50%);
+    width: 400px;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.profile > ul {
+    list-style: none;
+}
+
+.profile > img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.redes-sociais > li {
+   margin:auto;
+   font-size: 30px;
+}
+
+a:visited , a:hover {
+    color:white;
+    text-decoration: none;
+}
