@@ -46,14 +46,14 @@ body {
     align-items: center;
 }
 
-.redes-sociais {
+.social-networks {
     display: flex;
     justify-content: space-evenly;
     padding: 0px;
     margin-top: 50px;
 }
 
-.redes-sociais > li {
+.social-networks > li {
    margin:auto;
    font-size: 30px;
 }
